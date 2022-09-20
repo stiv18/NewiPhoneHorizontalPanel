@@ -1,8 +1,7 @@
-import React, { useRef, useState } from "react";
-import { StyleSheet, Text, View, Animated, Easing, Dimensions } from 'react-native';
+import React, { useRef } from "react";
+import { StyleSheet, View, Animated, Dimensions } from 'react-native';
 import HorizontalPanel from './components/HorizontalPanel';
 import { showHorizontalPanelFullAnimation, dismissHorizontalPanelFullAnimation } from "./components/HorizontalPanelAnimated.js";
-import HorizontalPanelHandler from './components/HorizontalPanelHandler';
 import MagicButton from "./components/MagicButton";
 
 export default function App() {
